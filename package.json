@@ -1,0 +1,21 @@
+{
+  "name": "document-scan",
+  "version": "1.0.0",
+  "description": "This application will detect and extract the PAN card information",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pancard-scan"
+  ],
+  "author": "Kavita Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "tesseract.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
